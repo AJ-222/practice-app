@@ -1,29 +1,41 @@
+/* src/styles/mainIcon.css */
 .main-icon {
-    background-color: #043673;
+    background-color: #043673;  /* Background color */
     display: inline-flex;
     color: white;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
-    border-radius: 5px;
-    width: 100px; /* Fixed width for consistency */
-    height: 120px; /* Adjust height to fit icon and text */
-    margin: 10px; /* Adds space around each icon */
+    padding: 15px;              /* Increased padding for a larger clickable area */
+    border-radius: 8px;         /* Slightly rounded corners */
+    width: 120px;               /* Increased width for better fit */
+    height: 140px;              /* Increased height to fit icon and text */
+    margin: 15px;               /* Added margin for spacing between icons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a "pop-up" effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    text-decoration: none;      /* Remove underline from links */
+}
+
+.main-icon:hover {
+    transform: scale(1.05);     /* Slightly enlarge the icon on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.main-icon:active {
+    transform: scale(0.98);     /* Slightly shrink the icon on click */
 }
 
 .icon-text {
-    font-size: 0.9em;
+    font-size: 1em;             /* Adjusted font size */
     font-family: Helvetica, Arial, sans-serif;
     margin: 0.5em 0;
     text-align: center;
-    max-width: 80%; /* Ensure the text wraps properly within the icon */
+    max-width: 80%;             /* Ensure text wraps within the icon */
     font-weight: bold;
-    word-wrap: break-word; 
-    
+    word-wrap: break-word;      /* Ensure text doesn't overflow */
 }
 
 .icon-img {
-    font-size: 2em;
-    margin: 0.5em 0;
+    font-size: 2.5em;           /* Increased font size for better visibility */
+    margin-bottom: 0.5em;       /* Added margin-bottom to separate icon and text */
 }
