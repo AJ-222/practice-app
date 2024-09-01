@@ -1,0 +1,23 @@
+/* Header.css */
+.app-header {
+    background-color: #043673; /* Background color */
+    color: white;              /* Text color */
+    padding: 20px;             /* Padding around the header */
+    display: flex;             /* Flexbox for alignment */
+    align-items: center;       /* Center items vertically */
+    border-radius: 4px;        /* Optional: round the edges */
+    position: relative;        /* Relative positioning for the container */
+  }
+  
+  .app-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    flex-grow: 1;              /* Allow the title to grow and take available space */
+    text-align: center;        /* Center text in its flex item */
+  }
+  
+  .logo {
+    height: 60px;              /* Adjust height as needed */
+    width: auto;               /* Maintain aspect ratio */
+  }
+  

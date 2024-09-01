@@ -1,0 +1,28 @@
+/* MyButton.css */
+.primary-button {
+    background-color: #917248; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .primary-button:hover {
+    background-color: #917248;
+  }
+  
+  .secondary-button {
+    background-color: #043673; /* Bootstrap secondary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .secondary-button:hover {
+    background-color: #043673;
+  }
+  

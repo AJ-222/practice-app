@@ -1,0 +1,29 @@
+.main-icon {
+    background-color: #043673;
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px; /* Fixed width for consistency */
+    height: 120px; /* Adjust height to fit icon and text */
+    margin: 10px; /* Adds space around each icon */
+}
+
+.icon-text {
+    font-size: 0.9em;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0.5em 0;
+    text-align: center;
+    max-width: 80%; /* Ensure the text wraps properly within the icon */
+    font-weight: bold;
+    word-wrap: break-word; 
+    
+}
+
+.icon-img {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
